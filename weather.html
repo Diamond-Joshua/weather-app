@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+  <section class="container">
+    <div class="searchbox">
+      <input type="text/submit/hidden/button/image" id="input" placeholder="enter a city name"/>
+      <button class="search__btn" type="submit"><i class="ph ph-magnifying-glass"></i></button>
+    </div>
+    <div class="error">
+      Invalid city name 
+    </div>
+    <div class="details">
+      <div class="weather__logo">
+        <img class="weather__logo--img" src="clear.png" alt="" />
+      </div>
+      <div class="City">
+        <h1 class="city__temp">22°C</h1>
+        <h2 class="city__name">Lagos</h2>
+      </div>
+      <div class="weather__nature">
+        <div class="weather__nature--primary">
+          <div class="humidity__logo">
+            <i class="ph ph-waves"></i>
+          </div>
+          <div class="nature__info">
+            <h2>50%</h2>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="weather__nature--primary">
+          <div class="wind__logo">
+            <i class="ph ph-wind"></i>
+          </div>
+          <div class="nature__info wind__speed">
+            <h2>50 km/h</h2>
+            <p>wind speed</p>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="weather.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
