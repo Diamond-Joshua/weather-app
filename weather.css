@@ -6,9 +6,29 @@
 html{
   font-size: 50%;
 }
+@media (max-width: 1200px){
+  html{
+    font-size: 40%;
+  }
+}
+@media (max-width: 600px){
+  html{
+    font-size: 30%;
+  }
+}
 @media (max-width: 400px){
   html{
     font-size: 20%;
+  }
+}
+@media (max-width: 300ox){
+  html{
+    font-size: 15%;
+  }
+}
+@media (max-width: 275px){
+  html{
+    font-size: 10%;
   }
 }
 body{
